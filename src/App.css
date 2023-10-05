@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    outline: none;
+    border: none;
+    background-color: rgb(7, 12, 26);
+    color: white;
+}
+
+button{
+    border: none;
+}
+
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://cdn.wallpapersafari.com/37/77/mUcx42.jpg);
+}
+
+.calculator_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(7, 12, 26);
+    border-radius: 8px;
+    box-shadow: rgba(49, 49, 49, 0.589) 1px 1px 5px;
+}
+
+.result{
+    width: 272px;
+    height: 65px;
+    padding: 1rem;
+    text-align: end;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1rem;
+}
+
+.button_keypad{
+    padding: 1.3rem;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 49);
+    color: white;
+}
+
+#result{
+    grid-column: 3/5;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(204, 35, 35);
+}
+
+
