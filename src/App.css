@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
 input{
     outline: none;
     border: none;
-    background-color: rgb(7, 12, 26);
+    background-color: rgb(4, 9, 24);
     color: white;
 }
 
@@ -29,7 +32,7 @@ button{
     align-items: center;
     flex-direction: column;
     padding: 1rem;
-    background-color: rgb(7, 12, 26);
+    background-color: rgb(4, 9, 24);
     border-radius: 8px;
     box-shadow: rgba(49, 49, 49, 0.589) 1px 1px 5px;
 }
